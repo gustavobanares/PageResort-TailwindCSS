@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +7,27 @@
     <link href="./output.css" rel="stylesheet">
 </head>
 
-<body class="bg-azul-300 dark:bg-gray-700 m-6 h-screen">
-    
-    <h1 class="text-brand-200 font-bold hover:underline">
-        Hello TailwindCSS
-    </h1>
+<body class="bg-gray-50 dark:bg-gray-800">
+    <div class="container mx-auto px-4 py-8">
+        <h6 class=" dark:text-gray-50 font-bold mb-2">Component Card</h6>
 
- <div class="group w-72 h-24 bg-azul-400 p-4 m-2">
-    <h4 class="font-bold group-hover:text-brand-300">Título do meu cartão</h4>
-    <p class=" text-white text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
-</div>
-<br>
-    <input class="bg-gray-400 hover:bg-gray-300 text-lg px-4 py-2 focus:text-azul-400 m-2" 
-    type="text">
+    
+        <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md overflow-hidden">
+            <div class="w-full bg-gray-100 dark:bg-gray-900 p-4 border-b border-gray-200 dark:border-gray-500">
+                <h4 class="font-bold dark:text-gray-50">Topo</h4>
+            </div>
+
+            <div class="p-4 dark:text-gray-50">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dicta est deserunt? Ullam quia hic vel porro aliquam voluptates? Labore blanditiis quisquam animi reprehenderit deleniti? Laudantium, a. Totam, eligendi adipisci.
+            </div>
+
+            <div class="w-full dark:text-gray-50 bg-gray-50 dark:bg-gray-900 p-3 border-t border-gray-100 dark:border-gray-500">
+                Rodapé
+            </div>
+
+        </div>
+    </div>
+    
 
 </body>
 </html>
